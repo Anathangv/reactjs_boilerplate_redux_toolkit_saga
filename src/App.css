@@ -1,0 +1,8 @@
+.containerCards{
+  width: 90vw;
+  max-width: 700;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

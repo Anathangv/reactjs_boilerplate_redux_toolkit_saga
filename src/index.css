@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #e0e0e0; 
+}
+
+body, input, button p{
+  font: 16px Roboto, sans-serif;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

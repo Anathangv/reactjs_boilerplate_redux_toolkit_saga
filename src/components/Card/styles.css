@@ -1,0 +1,43 @@
+.container{
+  width: 400px;
+  display: flex;
+  margin: 15px 5px;
+  max-height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #ffffff;
+  -webkit-box-shadow: 6px 4px 4px -1px rgba(0,0,0,0.33); 
+  box-shadow: 6px 4px 4px -1px rgba(0,0,0,0.33); 
+}
+
+.imageArea{
+  width: 250px;
+}
+
+
+.imageArea img{
+  max-height: 100%;
+}
+
+
+.detailsArea{
+  flex-grow: 1;
+  margin-top: 5px;
+}
+
+.detailsArea h3{  
+  text-align: center;
+}
+
+.detailsArea h5{  
+  padding: 0 5px;
+  font-size: 0.9em;
+}
+
+.detailsArea p{  
+  margin-top: 5px;
+  padding: 5px;
+  overflow-y: auto;
+  height: 195px;
+  border-top: 2px solid #e0e0e0;
+}
